@@ -1,0 +1,21 @@
+{
+  "name": "langchain-nodejs-demo",
+  "version": "1.0.0",
+  "description": "langchain tutorial demo",
+  "main": "index.js",
+  "type": "module",
+  "target": "ES2020",
+  "module": "nodenext",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thibaud Dervily",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.2.1",
+    "dotenv": "^16.4.5",
+    "hnswlib-node": "^3.0.0",
+    "langchain": "^0.2.0",
+    "openai": "^4.47.1"
+  }
+}
